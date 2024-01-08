@@ -1,0 +1,6 @@
+CREATE TABLE emp(
+    ID int NOT NULL,
+    efName varchar(255) NOT NULL,
+    elName varchar(255),
+    Age int, CHECK (Age>=18)
+);
